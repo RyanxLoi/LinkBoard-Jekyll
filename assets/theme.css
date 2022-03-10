@@ -8,7 +8,7 @@ body {
 
 #profile_pic{
     display: block;
-    margin: auto;
+    margin: 10px auto auto auto;
     width: 192px;
     height: 192px;
     border-radius: 50%;
@@ -49,9 +49,9 @@ button{
     background-color: #FFFFFF;
     border-color: #00827F;
     padding: 10px 30px;
-    width: 100%;
+    width: 90%;
     color: #00827F;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     transition-duration: 0.4s;
     box-shadow: 2px 2px;
@@ -70,4 +70,51 @@ button:hover{
 }
 
 
+/* Media queries*/
 
+/* Really small devices */
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: #00827F;
+        margin: auto;
+        width: 80%;
+    }
+
+    #links{
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    button{
+        border-width: 0px;
+        background-color: #FFFFFF;
+        border-color: #00827F;
+        padding: 10px 30px;
+        width: 80%;
+        color: #00827F;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.4s;
+        box-shadow: 2px 2px;
+    }
+
+    button:hover{
+        background-color: #FFFFFF;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .social_icon{
+        margin: auto;
+        width: 7.5%;
+        height: 7.5%;
+    }
+    
+    .social_icon:hover{
+        transition-duration: 0.5s;
+        opacity: 50%;
+    }
+}
