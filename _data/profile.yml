@@ -1,6 +1,9 @@
-username: Lifeguard Bara
+title: My LinkBoard
+footer: This page was created with <a href="https://github.com/RyanxLoi/LinkBoard-Jekyll">LinkBoard</a>.
+
+display_name: Lifeguard Bara
 profile_pic: assets/capybara.jpg
-description: I am a capybara who works as a lifeguard. My job is to make sure you stay safe while having fun! You can get your own LinkBoard website by getting the source code on GitHub.
+bio: I am a capybara who works as a lifeguard. My job is to make sure you stay safe while having fun! You can get your own LinkBoard website by getting the source code on GitHub and following the instructions.
 
 website: https://google.ca
 email: email@email.com

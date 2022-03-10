@@ -1,24 +1,26 @@
-# LinkyBoard
+# LinkBoard
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+LinkBoard is a landing page creator that you can use to create a page that is similar to LinkTree. You will have a single page with multiple links, directing users to any of your pages. This is great for conveniently sharing your social media or for promoting multiple products and services at once.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Why use LinkBoard
+* **Free:** Sites like LinkTree are also free but usually come with restrictions that you need to pay for. Meanwhile, LinkBoard is completely free to use.
+* **Customizable:** Edit your LinkBoard site's designs, links and features to your liking.
+* **Minimal:** Start off with the essential files of your LinkBoard site and expand from there.
 
-TODO: Delete this and the text above, and describe your gem
-
+![image](/preview.png)
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "LinkyBoard"
+gem "LinkBoard"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: LinkyBoard
+theme: LinkBoard
 ```
 
 And then execute:
@@ -27,15 +29,30 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install LinkyBoard
+    $ gem install LinkBoard
 
-## Usage
+Once installed, run `bundle exec jekyll serve` to view your LinkBoard site.
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+## Editing Your LinkBoard Site
 
-## Contributing
+### Links and Profile Information
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Your LinkBoard site loads data from your and `profile.yml` and `links.yml` files.
+
+**profile.yml**
+
+Your `profile.yml` file is where you can edit the title of your site as well as the footer text. You can also edit your display name, profile picture, and biography. Lastly, you can edit links to your social media profiles.
+
+**links.yml**
+
+`links.yml` is where you manage your buttons. To add a link, on a new line, start with a `-` followed by the `link_title` and `link_url` like below.
+
+```
+- link_title: Title of the link
+  link url: https://UrlOfTheLink.com
+```
+
+#### 
 
 ## Development
 

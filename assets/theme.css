@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body {
-    background-color: #00827F;
-    margin: auto;
-    width: 50%;
+a{
+    color: #FFFFFF
 }
 
 #profile_pic{
@@ -37,26 +35,6 @@ body {
     opacity: 50%;
 }
 
-#links{
-    display: block;
-    margin: auto;
-    width: 675px;
-    text-align: center;
-}
-
-button{
-    border-width: 0px;
-    background-color: #FFFFFF;
-    border-color: #00827F;
-    padding: 10px 30px;
-    width: 90%;
-    color: #00827F;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    transition-duration: 0.4s;
-    box-shadow: 2px 2px;
-}
-
 button:hover{
     background-color: #FFFFFF;
     color: #000000;
@@ -71,14 +49,12 @@ button:hover{
 
 
 /* Media queries*/
-
-/* Really small devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
 
     body {
         background-color: #00827F;
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
 
     #links{
@@ -93,7 +69,43 @@ button:hover{
         background-color: #FFFFFF;
         border-color: #00827F;
         padding: 10px 30px;
-        width: 80%;
+        width: 90%;
+        color: #00827F;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.4s;
+        box-shadow: 2px 2px;
+    }
+
+    .social_icon{
+        margin: auto;
+        width: 7.5%;
+        height: 7.5%;
+    }
+    
+}
+
+@media only screen and (min-width: 993px) {
+
+    body {
+        background-color: #00827F;
+        margin: auto;
+        width: 50%;
+    }
+
+    #links{
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    button{
+        border-width: 0px;
+        background-color: #FFFFFF;
+        border-color: #00827F;
+        padding: 10px 30px;
+        width: 90%;
         color: #00827F;
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
@@ -113,8 +125,5 @@ button:hover{
         height: 7.5%;
     }
     
-    .social_icon:hover{
-        transition-duration: 0.5s;
-        opacity: 50%;
-    }
+    
 }
