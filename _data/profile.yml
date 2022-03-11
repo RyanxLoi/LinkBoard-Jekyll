@@ -6,16 +6,16 @@ profile_pic: assets/capybara.jpg
 bio: I am a capybara who works as a lifeguard. My job is to make sure you stay safe while having fun! You can get your own LinkBoard website by getting the source code on GitHub and following the instructions.
 
 website: https://google.ca
-website_icon: assets/socialmedia/website.png
+website_icon: ./assets/socialmedia/website.png
 
 email: email@email.com
-email_icon: assets/socialmedia/email.png
+email_icon: ./assets/socialmedia/email.png
 
 facebook: https://facebook.com/
-facebook_icon: assets/socialmedia/facebook.png
+facebook_icon: ./assets/socialmedia/facebook.png
 
 twitter: https://twitter.com/
-twitter_icon: assets/socialmedia/twitter.png
+twitter_icon: ./assets/socialmedia/twitter.png
 
 linkedin: https://www.linkedin.com/
-linkedin_icon: assets/socialmedia/linkedin.png
+linkedin_icon: ./assets/socialmedia/linkedin.png
