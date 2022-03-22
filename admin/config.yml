@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: with-cms # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
 collections:
   - label: "Links"
     name: "links"
