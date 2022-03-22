@@ -1,5 +1,5 @@
 <div id="links">
-    {% for link in site.data.links %} 
+    {% for link in site.data.links.links %} 
     <p><a href={{link.link_url}} target="_blank"><button>{{link.link_title}}</button></a></p>
     {% endfor %}
 </div>
