@@ -9,11 +9,11 @@ collections:
     preview: false
   files:
     - label: 'Links'
-      name: 'link'
+      name: 'links'
       file: '_data/links.yml'
       fields:
         - label: 'Links'
-          name: 'items'
+          name: 'links'
           widget: 'list'
           fields:
             - { label: Link Title, name: link_title, widget: string }
