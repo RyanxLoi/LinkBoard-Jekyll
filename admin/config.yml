@@ -3,12 +3,14 @@ backend:
   branch: with-cms # Branch to update (optional; defaults to master)
 media_folder: 'assets/'
 collections:
-  - label: "Links"
+  - file: _data/links.yml
+    label: "Links"
     name: "links"
-    files:
-      - label: "Links"
-        name: "links"
-        file: "_data/links.yml"
+    fields:
+      - label: Links
+        name: links
+        widget: string
         fields:
-          - {label: Link Title, name: link_title, widget: string}
-          - {label: Link Url, name: link_url, widget: string}
+              - {label: Link Title, name: link_title, widget: string}
+              - {label: Link Url, name: link_url, widget: string}
+        
