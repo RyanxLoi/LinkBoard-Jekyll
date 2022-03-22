@@ -5,7 +5,6 @@ media_folder: 'assets/'
 collections:
   - label: "Links"
     name: "links"
-    file: "_data/links.yml"
     files:
       - label: "Links"
         name: "links"
