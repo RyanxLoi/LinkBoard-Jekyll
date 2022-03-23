@@ -4,11 +4,11 @@ backend:
 media_folder: 'assets/'
 collections:
 - name: 'config'
-  label: 'Config'
+  label: 'Settings and Links'
   editor:
     preview: false
   files:
-    - label: 'Links'
+    - label: 'Manage Links'
       name: 'links'
       file: '_data/links.yml'
       fields:
@@ -17,8 +17,8 @@ collections:
           widget: 'list'
           fields:
             - { label: Link Title, name: link_title, widget: string }
-            - { label: Link Url, name: link_url, widget: string }
-    - label: 'Profile'
+            - { label: Link URL, name: link_url, widget: string }
+    - label: 'Edit Profile'
       name: 'profile'
       file: '_data/profile.yml'
       fields:
@@ -37,4 +37,39 @@ collections:
           widget: 'string'
           fields:
             - { label: Display Name, name: display_name, widget: string }
+        - label: 'Profile Picture'
+          name: 'profile_pic'
+          widget: 'image'
+          fields:
+            - { label: Profile Picture, name: profile_picture, widget: image }
+        - label: 'Bio'
+          name: 'bio'
+          widget: 'string'
+          fields:
+            - { label: Bio, name: bio, widget: text }
+        - label: 'Website URL'
+          name: 'website'
+          widget: 'string'
+          fields:
+            - { label: Website URL, name: website, widget: text }
+        - label: 'Email'
+          name: 'email'
+          widget: 'string'
+          fields:
+            - { label: Email, name: email, widget: text }
+        - label: 'Facebook'
+          name: 'Facebook URL'
+          widget: 'string'
+          fields:
+            - { label: Facebook URL, name: facebook, widget: text }
+        - label: 'Twitter URL'
+          name: 'twitter'
+          widget: 'string'
+          fields:
+            - { label: Twitter URL, name: twitter, widget: text }
+        - label: 'LinkedIn URL'
+          name: 'linkedin'
+          widget: 'string'
+          fields:
+            - { label: LinkedIn URL, name: linkedin, widget: text }
         
