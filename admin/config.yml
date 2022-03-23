@@ -27,4 +27,14 @@ collections:
           widget: 'string'
           fields:
             - { label: Site title, name: title, widget: string }
+        - label: 'Site Footer'
+          name: 'footer'
+          widget: 'string'
+          fields:
+            - { label: Footer Text, name: footer, widget: text }
+        - label: 'Display Name'
+          name: 'display_name'
+          widget: 'string'
+          fields:
+            - { label: Display Name, name: display_name, widget: string }
         
