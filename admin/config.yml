@@ -18,4 +18,13 @@ collections:
           fields:
             - { label: Link Title, name: link_title, widget: string }
             - { label: Link Url, name: link_url, widget: string }
+    - label: 'Profile'
+      name: 'links'
+      file: '_data/profile.yml'
+      fields:
+        - label: 'Site Title'
+          name: 'title'
+          widget: 'string'
+          fields:
+            - { label: Site title, name: title, widget: string }
         
