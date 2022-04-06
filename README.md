@@ -11,27 +11,7 @@ LinkBoard is a landing page creator that you can use to create a page that is si
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "LinkBoard"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: LinkBoard
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install LinkBoard
-
-Once installed, run `bundle exec jekyll serve` to view your LinkBoard site.
+To get your own LinkBoard site, just clone the repository. Then run `bundle exec jekyll serve` to view your LinkBoard site.
 
 ## Editing Your LinkBoard Site
 
